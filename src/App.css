@@ -1,0 +1,12 @@
+.App {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.books-container {
+  flex: 1 1 auto; /* Takes up the remaining space */
+  overflow-y: auto; /* Enables vertical scrolling */
+  padding: 20px;
+  box-sizing: border-box;
+  border: 20px;
+  overflow-y: scroll;
+}

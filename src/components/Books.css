@@ -1,0 +1,44 @@
+/* Container for the buttons */
+.button-container {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+  margin-top: 10px;
+}
+
+/* General button styles */
+.button {
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Edit button specific styles */
+.button-edit {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.button-edit:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Delete button specific styles */
+.button-delete {
+  background-color: #f44336; /* Red */
+  color: white;
+}
+
+.button-delete:hover {
+  background-color: #e53935;
+  transform: scale(1.05);
+}
+li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+}

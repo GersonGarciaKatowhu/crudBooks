@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "title": "Las aventuras de Juan",
+    "publicationDate": "2000-12-18",
+    "categories": "Fiction",
+    "authorName": "Elv",
+    "review": "Hola, estuvo super bueno",
+    "rating": 5,
+    "url": "#"
+  },
+  {
+    "id": 2,
+    "title": "El misterio del bosque",
+    "publicationDate": "2005-07-23",
+    "categories": "Mystery",
+    "authorName": "Ana Pérez",
+    "review": "Un thriller fascinante que te mantiene en vilo hasta el final.",
+    "rating": 4,
+    "url": "#"
+
+  },
+  {
+    "id": 3,
+    "title": "Historias de amor eterno",
+    "publicationDate": "2012-02-14",
+    "categories": "Romance",
+    "authorName": "Carlos López",
+    "review": "Una serie de relatos que exploran las profundidades del amor.",
+    "rating":4,
+    "url": "#"
+  },
+  {
+    "id": 4,
+    "title": "La ciencia de lo imposible",
+    "publicationDate": "2018-09-30",
+    "categories": "Science Fiction",
+    "authorName": "María Torres",
+    "review": "Un viaje al futuro lleno de descubrimientos asombrosos.",
+    "rating": 4,
+    "url": "#"
+
+  },
+  {
+    "id": 5,
+    "title": "Cocinando con sabor",
+    "publicationDate": "2021-06-15",
+    "categories": "Cooking",
+    "authorName": "Juan García",
+    "review": "Recetas deliciosas y fáciles de preparar para toda la familia.",
+    "rating": 5,
+    "url": "#jhgfghj"
+
+  },
+  {
+    "id": 6,
+    "title": "Guía para principiantes en programación",
+    "publicationDate": "2019-01-10",
+    "categories": "Education",
+    "authorName": "Laura Fernández",
+    "review": "Un manual completo para empezar a programar desde cero.",
+    "rating": 5,
+    "url": "#jfghfjghgfh"
+  },
+  {
+    "id": 7,
+    "title": "Viajes por el mundo",
+    "publicationDate": "2016-11-05",
+    "categories": "Adventure",
+    "authorName": "Pedro Martínez",
+    "review": "Una exploración de los lugares más increíbles del planeta.",
+    "rating": 4,
+    "url": "#jhgfhjgfghj"
+  }
+]
