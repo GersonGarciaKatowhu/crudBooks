@@ -1,8 +1,8 @@
 export const Star = ({ filled }) => {
   return (
     <svg
-      height="25px"
-      width="23px"
+      height="30.5px"
+      width="30.3px"
       fill={filled ? "gold" : "gray"}
       viewBox="0 0 25 25"
     >

@@ -43,17 +43,17 @@ function FormBooks() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className='form'>
+    <form onSubmit={handleSubmit} className='form' id='form'>
       <div>
-        <label htmlFor="titleBook">Title book</label>
+        <label htmlFor="titleBook">Titulo de tu libro</label>
         <input type="text" id='titleBook' value={title} onChange={(e) => setTitle(e.target.value)} />
       </div>
       <div>
-        <label htmlFor="categories">Categories:</label>
+        <label htmlFor="categories">Categorias:</label>
         <input type="text" id="categories" value={categories} onChange={(e) => setCategories(e.target.value)} />
       </div>
       <div>
-        <label htmlFor="author">Author:</label>
+        <label htmlFor="author">Autor:</label>
         <input
           id="author"
           type="text"
@@ -81,14 +81,14 @@ function FormBooks() {
         </div>
       </div>
       <div>
-        <label htmlFor="publicationDate">Publication date:</label>
+        <label htmlFor="publicationDate">Fecha de publicación:</label>
         <input type="date" id="publicationDate" value={publicationDate} onChange={e => setPublicationDate(e.target.value)} />
       </div>
       <div>
-        <label htmlFor="urlBook">Url book</label>
+        <label htmlFor="urlBook">¡Ingresa la URL de tu libro!</label>
         <input type="text" value={url} onChange={e => setUrl(e.target.value)} />
       </div>
-      <button type="submit">Submit</button>
+      <button type="submit">{editingBook ? 'Actualizar libro' : 'Añadir libro'}</button>
     </form>
   );
 }
