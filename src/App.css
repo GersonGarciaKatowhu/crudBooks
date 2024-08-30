@@ -2,22 +2,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.books-container {
-  flex: 1 1 auto; /* Takes up the remaining space */
-  overflow-y: auto; /* Enables vertical scrolling */
-  padding: 20px;
-  box-sizing: border-box;
-  border: 20px;
-  overflow-y: scroll;
-  align-items: center;
-  margin: 100px;
-}
 body {
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-}
-.form-container {
-  position: fixed;
-  right: 150px;
+  scroll-behavior: smooth;
 }
 @media screen and (max-width:  1264px) {
   .content {
@@ -32,6 +19,13 @@ header {
   text-align: center;
   margin-bottom: 20px;
   color: #007bff;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #007bff, 0 0 20px #007bff, 0 0 25px #007bff, 0 0 30px #007bff, 0 0 35px #007bff;
   font-weight: bold;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.App {
+  scroll-behavior: smooth;
 }
